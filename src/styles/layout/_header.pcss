@@ -1,0 +1,58 @@
+.header {
+    .navbar {
+        padding: 1.5rem 1rem;
+    }
+
+    .nav-link {
+        color: var(--colorDarkGray);
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-right: 10px;
+        position: relative;
+        transition: all 0.5s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            background: var(--colorSky);
+            height: 2px;
+            top: 55px;
+            left: 0;
+            opacity: 0;
+            width: 0;
+            transition: all 0.5s;
+        }
+
+        &:hover {
+            color: var(--colorSky);
+
+            &::after {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+
+    .form-inline {
+        padding: 0;
+        position: relative;
+
+        .form-control {
+            font-size: 13px;
+            color: #a6a6a6;
+            border-color: rgb(214, 214, 214);
+            padding: .5rem 1.4rem;
+        }
+
+        &::after {
+            content: '\f002';
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            color: #c3c3c3;
+            position: absolute;
+            right: 15px;
+            font-size: 18px;
+        }
+    }
+}

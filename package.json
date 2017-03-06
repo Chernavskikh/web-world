@@ -1,0 +1,32 @@
+{
+  "name": "gulp-postcss-config",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.7.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-html-import": "0.0.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-retinize": "^0.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-comments": "^2.4.3",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^1.5.4",
+    "gutil": "^1.6.4",
+    "imagemin-pngquant": "^4.2.2",
+    "postcss-assets": "^4.1.0",
+    "postcss-nested": "^1.0.0",
+    "precss": "^1.4.0",
+    "stylelint": "^7.6.0",
+    "stylelint-config-standard": "^15.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  }
+}

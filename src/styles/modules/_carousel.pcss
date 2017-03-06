@@ -1,0 +1,55 @@
+.carousel-item {
+    height: 455px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.carousel-caption {
+    right: 21%;
+    bottom: auto;
+    left: 21%;
+    top: 30%;
+
+    h3 {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/arrow-icon.png);
+    width: 25px;
+    height: 50px;
+}
+
+.carousel-control-next-icon {
+    @extend .carousel-control-prev-icon;
+
+    transform: rotate(180deg);
+}
+
+.carousel-indicators {
+    li {
+        max-width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 4px solid white;
+
+        &.active {
+            background-color: var(--colorSky);
+        }
+    }
+}
